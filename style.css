@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-content {
+    max-width: 1300px;
+    margin-top: 40px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 13px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    border-radius: 400px;
+    margin: 0 auto;
+    width: 200px;
+    object-fit: cover;
+    object-position: center 20%;
+    display: block;
+    border: solid 3px black;
+    height: 200px;
+}
+
+.my-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: larger;
+}
+
+.titles {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.work-titles {
+    font-size: 32px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.work-wheres {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.work-time {
+    opacity: 50%;
+    margin-top: -10px;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.skills-list.hidden {
+    display: none;
+}
+
+.skill-tag {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 7px 14px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* .social-contact {
+    justify-content: center;
+} */
+
+.social-contact-content {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1 {
+    height: 120px;
+    margin-right: -21px;
+}
+
+.icon2 {
+    height: 80px;
+}
+
+.icon3 {
+    height: 80px;
+}
+
+.icon1:hover {
+    opacity: 60%;
+}
+
+.icon2:hover {
+    opacity: 60%;
+}
+
+.icon3:hover {
+    opacity: 60%;
+}
+
+ /* Responsive */
+@media (max-width: 768px) {
+    .skills-list {
+        justify-content: center;
+    }
+}
