@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Your Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <p class="fill-info">Fill Your Information</p>
+        <hr>
+        <br><br>
+        <form id="resumeForm">
+            <label for="fullName" class="form-titles">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" class="form-textbox" required><br>
+
+            <label for="jobTitle" class="form-titles">Job Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle" class="form-textbox" required><br>
+
+            <label for="personalInfo" class="form-titles">Personal Information:</label>
+            <textarea id="personalInfo" name="personalInfo" required></textarea><br>
+            
+            <div id="workExperienceSection">
+                <p class="form-section-titles"><b>WORK EXPERIENCE SECTION</b></p>
+                <hr><br>
+                <label for="workTitle" class="form-titles">Work Title:</label><br>
+                <input type="text" id="workTitle" name="workTitle" class="form-textbox" placeholder="e.g., Graphics Designer" required><br><br>
+            
+                <label for="workPlace" class="form-titles">Workplace:</label><br>
+                <input type="text" id="workPlace" name="workPlace" class="form-textbox" placeholder="e.g., Freelance/Projects" required><br><br>
+            
+                <label for="workDate" class="form-titles">Work Date:</label><br>
+                <input type="text" id="workDate" name="workDate" class="form-textbox" placeholder="e.g., Aug 2022 - Present" required><br><br>
+            
+                <label for="workDescription" class="form-titles">Work Description:</label><br>
+                <textarea id="workDescription" name="workDescription" placeholder="Describe your responsibilities and achievements" required></textarea><br><br>
+            
+                <button type="button" id="addWorkExperience">Add Work Experience</button>
+            </div>            
+
+            <br>
+
+            <div id="educationSection">
+                <p class="form-section-titles"><b>ACADEMICS & EDUCATION SECTION</b></p>
+                <hr><br>
+                <label for="degree" class="form-titles">Degree/Major:</label><br>
+                <input type="text" id="degree" name="degree" class="form-textbox" placeholder="e.g., Bachelors" required><br><br>
+            
+                <label for="university" class="form-titles">Education Place:</label><br>
+                <input type="text" id="university" name="university" class="form-textbox" placeholder="e.g., XYZ University" required><br><br>
+            
+                <label for="educationDate" class="form-titles">Start Date - End Date:</label><br>
+                <input type="text" id="educationDate" name="educationDate" class="form-textbox" placeholder="e.g., Sep 2024 - Sep 2028 (In progress)" required><br><br>
+            
+                <button type="button" id="addEducation">Add Education</button>
+            </div>            
+
+            <br>
+
+            <div id="skillsSection">
+                <p class="form-section-titles"><b>KNOWLEDGE & SKILLS SECTION</b></p>
+                <hr><br>
+                <label for="skills" class="form-titles">Skills (comma-separated):</label><br>
+                <textarea id="skills" name="skills" placeholder="e.g., HTML, CSS, Javascript etc" required></textarea><br><br>
+            </div>            
+
+            <br>
+
+            <div id="contactSection">
+                <p class="form-section-titles"><b>SOCIAL CONTACTS SECTION</b></p>
+                <hr><br>
+                <label for="email" class="form-titles">Email:</label>
+                <input type="email" id="email" name="email" class="form-textbox" placeholder="e.g., omerspac@gmail.com" required><br><br>
+
+                <label for="phone" class="form-titles">Phone:</label>
+                <input type="text" id="phone" name="phone" class="form-textbox" placeholder="e.g., +92 325-722-6096" required><br><br>
+
+                <label for="address" class="form-titles">Address:</label>
+                <input type="text" id="address" name="address" class="form-textbox" placeholder="Karachi, Pakistan" required><br><br>
+            </div>            
+
+            <br>
+
+            <label for="github" class="form-titles">GitHub Link:</label>
+            <input type="text" id="github" name="github" class="form-textbox" placeholder="e.g., https://www.github.com/omerspac" required><br>
+
+            <label for="linkedin" class="form-titles">LinkedIn Link:</label>
+            <input type="text" id="linkedin" name="linkedin" class="form-textbox" placeholder="e.g., https://www.linkedin.com/in/muhammad-omer-90a366259/" required><br>
+
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

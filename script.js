@@ -1,4 +1,5 @@
 "use strict";
+
 const toggleButton = document.getElementById('toggleWorkLinks');
 const workLinks = document.getElementById('workLinks');
 const workWheres = document.getElementById('workWheres');
@@ -44,3 +45,19 @@ if (toggleSkills2 && skillList2) {
         }
     });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const generateResumeButton = document.getElementById('generateResumeButton');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            generateResumeButton.style.display = 'block';
+        } else {
+            generateResumeButton.style.display = 'none';
+        }
+    });
+
+    generateResumeButton.addEventListener('click', () => {
+        window.location.href = 'form.html';
+    });
+});
