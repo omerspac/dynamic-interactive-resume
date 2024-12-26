@@ -1,2 +1,2 @@
-# static-interactive-resume
-A Static Interactive Resume created using HTML, CSS, Typescript only.
+# dynamic-interactive-resume
+A Dynamic Interactive Resume created using HTML, CSS, Javascript/Typescript only.
