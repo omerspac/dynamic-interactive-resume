@@ -12,6 +12,9 @@
         <hr>
         <br><br>
         <form id="resumeForm">
+            <label for="pfpLink" class="form-titles">Profile Picture (Link):</label>
+            <input type="text" id="pfpLink" name="pfpLink" class="form-textbox" required><br>
+
             <label for="fullName" class="form-titles">Full Name:</label>
             <input type="text" id="fullName" name="fullName" class="form-textbox" required><br>
 
@@ -20,41 +23,43 @@
 
             <label for="personalInfo" class="form-titles">Personal Information:</label>
             <textarea id="personalInfo" name="personalInfo" required></textarea><br>
-            
+
             <div id="workExperienceSection">
                 <p class="form-section-titles"><b>WORK EXPERIENCE SECTION</b></p>
                 <hr><br>
-                <label for="workTitle" class="form-titles">Work Title:</label><br>
-                <input type="text" id="workTitle" name="workTitle" class="form-textbox" placeholder="e.g., Graphics Designer" required><br><br>
-            
-                <label for="workPlace" class="form-titles">Workplace:</label><br>
-                <input type="text" id="workPlace" name="workPlace" class="form-textbox" placeholder="e.g., Freelance/Projects" required><br><br>
-            
-                <label for="workDate" class="form-titles">Work Date:</label><br>
-                <input type="text" id="workDate" name="workDate" class="form-textbox" placeholder="e.g., Aug 2022 - Present" required><br><br>
-            
-                <label for="workDescription" class="form-titles">Work Description:</label><br>
-                <textarea id="workDescription" name="workDescription" placeholder="Describe your responsibilities and achievements" required></textarea><br><br>
-            
-                <button type="button" id="addWorkExperience">Add Work Experience (In progress)</button>
-            </div>            
+                <div id="workExperience0" class="work-entry">
+                    <label for="workTitle0" class="form-titles">Work Title:</label><br>
+                    <input type="text" id="workTitle0" name="workTitle0" class="form-textbox" placeholder="e.g., Graphics Designer" required><br><br>
+
+                    <label for="workPlace0" class="form-titles">Workplace:</label><br>
+                    <input type="text" id="workPlace0" name="workPlace0" class="form-textbox" placeholder="e.g., Freelance/Projects" required><br><br>
+
+                    <label for="workDate0" class="form-titles">Work Date:</label><br>
+                    <input type="text" id="workDate0" name="workDate0" class="form-textbox" placeholder="e.g., Aug 2022 - Present" required><br><br>
+
+                    <label for="workDescription0" class="form-titles">Work Description:</label><br>
+                    <textarea id="workDescription0" name="workDescription0" placeholder="Describe your responsibilities and achievements" class="work-description" required></textarea><br><br>
+                </div>
+                <button type="button" id="addWorkExperience">Add Work Experience</button><br><br>
+            </div>
 
             <br>
 
             <div id="educationSection">
                 <p class="form-section-titles"><b>ACADEMICS & EDUCATION SECTION</b></p>
                 <hr><br>
-                <label for="degree" class="form-titles">Degree/Major:</label><br>
-                <input type="text" id="degree" name="degree" class="form-textbox" placeholder="e.g., Bachelors" required><br><br>
-            
-                <label for="university" class="form-titles">Education Place:</label><br>
-                <input type="text" id="university" name="university" class="form-textbox" placeholder="e.g., XYZ University" required><br><br>
-            
-                <label for="educationDate" class="form-titles">Start Date - End Date:</label><br>
-                <input type="text" id="educationDate" name="educationDate" class="form-textbox" placeholder="e.g., Sep 2024 - Sep 2028 (In progress)" required><br><br>
-            
-                <button type="button" id="addEducation">Add Education (In progress)</button>
-            </div>            
+                <div id="education0" class="education-entry">
+                    <label for="degree0" class="form-titles">Degree/Major:</label><br>
+                    <input type="text" id="degree0" name="degree0" class="form-textbox" placeholder="e.g., Bachelors" required><br><br>
+
+                    <label for="university0" class="form-titles">Education Place:</label><br>
+                    <input type="text" id="university0" name="university0" class="form-textbox" placeholder="e.g., XYZ University" required><br><br>
+
+                    <label for="educationDate0" class="form-titles">Start Date - End Date:</label><br>
+                    <input type="text" id="educationDate0" name="educationDate0" class="form-textbox" placeholder="e.g., Sep 2024 - Sep 2028 (In progress)" required><br><br>
+                </div>
+                <button type="button" id="addEducation">Add Education</button><br><br>
+            </div>
 
             <br>
 
@@ -63,7 +68,7 @@
                 <hr><br>
                 <label for="skills" class="form-titles">Skills (comma-separated):</label><br>
                 <textarea id="skills" name="skills" placeholder="e.g., HTML, CSS, Javascript etc" required></textarea><br><br>
-            </div>            
+            </div>
 
             <br>
 
@@ -78,7 +83,7 @@
 
                 <label for="address" class="form-titles">Address:</label>
                 <input type="text" id="address" name="address" class="form-textbox" placeholder="Karachi, Pakistan" required><br><br>
-            </div>            
+            </div>
 
             <br>
 

@@ -228,7 +228,7 @@ ul li {
     font-size: 16px;
 }
 
-#education, #experience, #resumeWorkContent, #workDescription, #skills, #personalInfo {
+#education, #experience, #resumeWorkContent, #skills, #personalInfo, .work-description {
     height: 60px;
     width: 100%;
 }
@@ -294,7 +294,6 @@ textarea {
 
 .resume-job-title {
     font-size: larger;
-    color: #555;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -338,7 +337,7 @@ textarea {
     font-size: 1em;
 }
 
-.print-resume {
+/* .print-resume {
     width: 100%;
-}
+} */
 /* end */
